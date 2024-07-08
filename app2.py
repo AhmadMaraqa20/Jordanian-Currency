@@ -21,15 +21,15 @@ def annotate_image(image, results):
         color = class_colors[results[0].names[cls_id]]  # Color for the class
 
         # Draw the bounding box
-        cv2.rectangle(image, (x1, y1), (x2, y2), color, 6)
+        cv2.rectangle(image, (x1, y1), (x2, y2), color, 12)
 
         # Calculate the text size and position
-        (w, h), _ = cv2.getTextSize(label, cv2.FONT_HERSHEY_SIMPLEX, 3, 2)
+        (w, h), _ = cv2.getTextSize(label, cv2.FONT_HERSHEY_SIMPLEX, 4, 2)
         cv2.rectangle(
             image, (x1, y1 - h - 10), (x1 + w, y1), color, -1
         )  # Background rectangle for label
         cv2.putText(
-            image, label, (x1, y1 - 5), cv2.FONT_HERSHEY_SIMPLEX, 3, (0, 0, 0), 1
+            image, label, (x1, y1 - 5), cv2.FONT_HERSHEY_SIMPLEX, 4, (0, 0, 0), 2
         )  # Text label in black color
 
     return image
