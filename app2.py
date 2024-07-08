@@ -6,7 +6,7 @@ from ultralytics import YOLO
 import random
 import tempfile
 
-model = YOLO("C:/Users/HP/OneDrive/Desktop/IMP_Projects/CV/currencymodel.pt")
+model = YOLO("currencymodel.pt")
 st.title("Jordanian Currency detection model", anchor=False)
 classes = list(model.names.values())
 
