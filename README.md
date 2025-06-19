@@ -15,7 +15,7 @@ Here are some example outputs from our trained model:
 
 <p align="center">
   <img src="examples/ex1.jpg" width="400"/>
-  <img src="examples/ex2.jpg" width="400"/>
-  <br/>
   <img src="examples/ex3.jpg" width="400"/>
+  <br/>
+  <img src="examples/ex2.jpg" width="400"/>
 </p>
