@@ -5,7 +5,7 @@ Explore the Jordanian-Currency-Detection web application by visiting the followi
 
 ## Overview
 
-This project tackles the **object detection** problem of identifying Jordanian currency notes in images. We built a custom dataset by collecting images ourselves and enhanced the dataset using **image augmentation techniques** such as **rotation** and **brightness adjustment** to increase its size and diversity.
+This project tackles the **object detection** problem of identifying Jordanian currency in images. We built a custom dataset by collecting images ourselves and enhanced the dataset using **image augmentation techniques** such as **rotation** and **brightness adjustment** to increase its size and diversity.
 
 We trained the model using the **YOLO (You Only Look Once)** architecture, which is well-suited for real-time object detection tasks.
 
@@ -14,9 +14,9 @@ We trained the model using the **YOLO (You Only Look Once)** architecture, which
 Here are some example outputs from our trained model:
 
 <p align="center">
-  <img src="examples/ex1.png" width="400"/>
-  <img src="examples/ex2.png" width="400"/>
+  <img src="examples/ex1.jpg" width="400"/>
+  <img src="examples/ex2.jpg" width="400"/>
   <br/>
-  <img src="examples/ex3.png" width="400"/>
-  <img src="examples/ex4.png" width="400"/>
+  <img src="examples/ex3.jpg" width="400"/>
+  <img src="examples/ex4.jpg" width="400"/>
 </p>
