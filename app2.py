@@ -1,10 +1,13 @@
 import streamlit as st
-import cv2
 import numpy as np
 from PIL import Image
 from ultralytics import YOLO
 import random
 import tempfile
+import os
+os.environ["OPENCV_VIDEOIO_PRIORITY_MSMF"] = "0"  # avoid video backends that need libGL
+import cv2
+
 
 model = YOLO("currencymodel.pt")
 st.title("Jordanian Currency detection model", anchor=False)
@@ -224,3 +227,4 @@ if uploaded_image:
 
 # # cd C:\Users\HP\OneDrive\Desktop\work\AI portfolio\AI
 # # streamlit run app2.py
+
