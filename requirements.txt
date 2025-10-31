@@ -2,5 +2,7 @@ streamlit
 Pillow
 ultralytics 
 tempf
-opencv-python
+numpy
+pillow
+streamlit
 opencv-python-headless==4.10.0.84
