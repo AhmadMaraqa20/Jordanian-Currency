@@ -1,17 +1,6 @@
 import streamlit as st
 import random
 import tempfile
-
-import os
-os.environ["OPENCV_VIDEOIO_PRIORITY_MSMF"] = "0"
-
-# --- Force ultralytics to use the headless OpenCV build ---
-try:
-    import pip
-    pip.main(["uninstall", "-y", "opencv-python"])
-except Exception:
-    pass
-
 import cv2
 import numpy as np
 from PIL import Image
@@ -235,5 +224,6 @@ if uploaded_image:
 
 # # cd C:\Users\HP\OneDrive\Desktop\work\AI portfolio\AI
 # # streamlit run app2.py
+
 
 
