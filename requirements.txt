@@ -1,8 +1,5 @@
 streamlit
-Pillow
-ultralytics 
-tempf
+ultralytics
 numpy
 pillow
-streamlit
 opencv-python-headless==4.10.0.84
