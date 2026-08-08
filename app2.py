@@ -64,7 +64,7 @@ if uploaded_image:
     st.image(
         cv2.cvtColor(annotated_image, cv2.COLOR_BGR2RGB),
         caption="Detected Objects.",
-        use_column_width=True,
+        use_container_width=True,
     )
 
     # Convert annotated image to PIL format
